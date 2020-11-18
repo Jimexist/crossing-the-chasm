@@ -2,6 +2,19 @@ import { Head, Notes, themes } from "mdx-deck";
 
 export const theme = {
   ...themes.book,
+  styles: {
+    ...themes.book.styles,
+    img: {
+      maxHeight: "50vh",
+    },
+    th: {
+      textTransform: "uppercase",
+    },
+    td: {
+      fontSize: 25,
+      paddingRight: 2,
+    },
+  },
 };
 
 <Head>
@@ -47,9 +60,9 @@ Instead of your feeling for this ads, what are the good questions you can ask?
 
 The bell curve
 
-Source: [xkcd](https://www.explainxkcd.com/wiki/index.php/2118:_Normal_Distribution)
+![the-bell-curve](https://www.explainxkcd.com/wiki/images/c/c9/normal_distribution.png)
 
-![The Bell Curve](https://www.explainxkcd.com/wiki/images/c/c9/normal_distribution.png)
+Source: [xkcd](https://www.explainxkcd.com/wiki/index.php/2118:_Normal_Distribution)
 
 ---
 
@@ -189,9 +202,16 @@ partners and allies
 
 if you can define (choose) the battle then you can win any one.
 
+alternative product + alternative market
+
 Box: dropbox for enterprise, replacing sharepoint
 
-Positioning: claim, evidence, communications, feedback and adjustment
+Positioning
+
+- claim
+- evidence
+- communications
+- feedback and adjustment
 
 ---
 
